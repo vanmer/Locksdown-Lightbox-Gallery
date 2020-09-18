@@ -4,17 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="style.css">
-    <title>Locks Down – Lightbox Gallery</title>
+    <script src="js/lightbox-plus-jquery.min.js"></script>
+    <link rel="stylesheet" href="css/lightbox.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Locks down – Lightbox Gallery</title>
 </head>
 <body>
+    
     <div class="gallery">
-        <a href="img/locksdown-large/locksdown-large_001.jpg"><img src="img/locksdown-small/locksdown-small_001.jpg" alt=""></a>
-        <a href="img/locksdown-large/locksdown-large_002.jpg"><img src="img/locksdown-small/locksdown-small_002.jpg" alt=""></a>
-        <a href="img/locksdown-large/locksdown-large_003.jpg"><img src="img/locksdown-small/locksdown-small_003.jpg" alt=""></a>
-        <a href="img/locksdown-large/locksdown-large_004.jpg"><img src="img/locksdown-small/locksdown-small_004.jpg" alt=""></a>
-        <a href="img/locksdown-large/locksdown-large_005.jpg"><img src="img/locksdown-small/locksdown-small_005.jpg" alt=""></a>
-        <a href="img/locksdown-large/locksdown-large_006.jpg"><img src="img/locksdown-small/locksdown-small_006.jpg" alt=""></a>
+        <a href="img/locksdown-large/locksdown-large_001.jpg" data-lightbox="mygallery" data-title="Lock #1"><img src="img/locksdown-small/locksdown-small_001.jpg" alt=""></a>
+        <a href="img/locksdown-large/locksdown-large_002.jpg" data-lightbox="mygallery" data-title="Lock #2"><img src="img/locksdown-small/locksdown-small_002.jpg" alt=""></a>
+        <a href="img/locksdown-large/locksdown-large_003.jpg" data-lightbox="mygallery" data-title="Lock #3"><img src="img/locksdown-small/locksdown-small_003.jpg" alt=""></a>
+        <a href="img/locksdown-large/locksdown-large_004.jpg" data-lightbox="mygallery" data-title="Lock #4"><img src="img/locksdown-small/locksdown-small_004.jpg" alt=""></a>
+        <a href="img/locksdown-large/locksdown-large_005.jpg" data-lightbox="mygallery" data-title="Lock #5"><img src="img/locksdown-small/locksdown-small_005.jpg" alt=""></a>
+        <a href="img/locksdown-large/locksdown-large_006.jpg" data-lightbox="mygallery" data-title="Lock #6"><img src="img/locksdown-small/locksdown-small_006.jpg" alt=""></a>
         <a href="img/locksdown-large/locksdown-large_007.jpg"><img src="img/locksdown-small/locksdown-small_007.jpg" alt=""></a>
         <a href="img/locksdown-large/locksdown-large_008.jpg"><img src="img/locksdown-small/locksdown-small_008.jpg" alt=""></a>
         <a href="img/locksdown-large/locksdown-large_009.jpg"><img src="img/locksdown-small/locksdown-small_009.jpg" alt=""></a>
@@ -37,6 +40,18 @@
         <a href="img/locksdown-large/locksdown-large_026.jpg"><img src="img/locksdown-small/locksdown-small_026.jpg" alt=""></a>
         <a href="img/locksdown-large/locksdown-large_027.jpg"><img src="img/locksdown-small/locksdown-small_027.jpg" alt=""></a>
         <a href="img/locksdown-large/locksdown-large_028.jpg"><img src="img/locksdown-small/locksdown-small_028.jpg" alt=""></a>
-    </div>
+        <a href="img/locksdown-large/locksdown-large_029.jpg"><img src="img/locksdown-small/locksdown-small_029.jpg" alt=""></a>
+        <a href="img/locksdown-large/locksdown-large_030.jpg"><img src="img/locksdown-small/locksdown-small_030.jpg" alt=""></a>
+        </div>
+    
+
+
+<script>
+    lightbox.option({
+      'albumLabel': ""
+    })
+</script>
+
+
 </body>
 </html>

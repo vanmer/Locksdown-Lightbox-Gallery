@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.gallery-container {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.gallery {
+    margin: 0.75rem 2rem;
+}
+
+.gallery img {
+    transition: 1s;
+    padding: 1rem;
+    width: 300px;
+}
+
+.gallery img:hover {
+    /* filter: grayscale(100%); */
+    transform: scale(1.05);
+}
